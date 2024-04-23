@@ -1,1 +1,5 @@
-<div data-controller="chatroom"></div>
+<div data-controller="chatroom">
+  <div id="chatbox" data-chatroom-target="chatbox" class="bg-black h-200 w-200 text-white mb-5"></div>
+  <input type="text" data-chatroom-target="input" />
+  <button data-action="click->chatroom#send">send</button>
+</div>
